@@ -1,0 +1,14 @@
+program AndroidUI;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  AndroidUI.View.Base in 'src\View\AndroidUI.View.Base.pas' {FAndroidUIViewBase};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFAndroidUIViewBase, FAndroidUIViewBase);
+  Application.Run;
+end.

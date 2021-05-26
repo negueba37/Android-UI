@@ -1,0 +1,25 @@
+inherited FAndroidUIViewBase1: TFAndroidUIViewBase1
+  Caption = 'FAndroidUIViewBase1'
+  DesignerMasterStyle = 0
+  inherited tbControlBase: TTabControl
+    Sizes = (
+      350s
+      454s
+      350s
+      454s
+      350s
+      454s)
+    inherited TabItem1: TTabItem
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    inherited TabItem2: TTabItem
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    inherited TabItem3: TTabItem
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+  end
+end
